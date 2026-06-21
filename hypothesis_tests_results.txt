@@ -1,0 +1,27 @@
+Hypothesis Tests Results
+========================
+
+Test 1: Independent T-Test (Total Sales: East vs West)
+H0: Mean Total Sales for East == Mean Total Sales for West
+H1: Mean Total Sales for East != Mean Total Sales for West
+Test Statistic: 2.0623
+P-value: 0.04548
+Decision: Reject H0
+Business Interpretation: There is a significant difference in sales between East and West.
+
+Test 2: ANOVA (Total Sales across all Regions)
+H0: Mean Total Sales are equal across all regions
+H1: At least one region has a different Mean Total Sales
+Test Statistic (F): 2.1644
+P-value: 0.09724
+Decision: Fail to reject H0
+Business Interpretation: No significant difference in total sales across regions was found.
+
+Test 3: Independent T-Test (MonthlyCharges: Churn vs Non-Churn)
+H0: Mean MonthlyCharges (Churn) == Mean MonthlyCharges (Non-Churn)
+H1: Mean MonthlyCharges (Churn) != Mean MonthlyCharges (Non-Churn)
+Test Statistic: 2.6464
+P-value: 0.01008
+Decision: Reject H0
+Business Interpretation: Churned customers have significantly different monthly charges compared to retained customers.
+
